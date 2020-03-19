@@ -1,0 +1,18 @@
+INDEX VERSION 1.131+/Users/hye/Documents/study-java/tdt4100-v2020-master/ws/.metadata/.plugins/org.eclipse.jdt.core
+3374642435.index
+1111884073.index
+1610091383.index
+2327901388.index
+1839805309.index
+456501720.index
+3168880690.index
+2714318857.index
+3450725583.index
+2637823949.index
+1093909016.index
+51559811.index
+1531293374.index
+145186895.index
+3189183266.index
+2271336123.index
+3197955928.index

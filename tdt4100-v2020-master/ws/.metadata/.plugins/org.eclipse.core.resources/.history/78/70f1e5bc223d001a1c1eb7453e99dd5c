@@ -1,0 +1,32 @@
+package stateandbehavior;
+
+public class Digit {
+	
+	private int numDec;
+	private int numDig;
+	
+	
+	static int getValue() { // get nu
+		return numDig;
+	}
+	
+	static boolean increment() {
+		if () {
+			
+		}
+			
+			// increase digit value by one. 
+		// if it reaches number system value 
+		// then it is set to 0 the method return true
+		// otherwise returns false
+	}
+	
+	static int getBase() {
+		return numDec;
+	}
+	
+	static void main() {
+		
+	}
+
+}

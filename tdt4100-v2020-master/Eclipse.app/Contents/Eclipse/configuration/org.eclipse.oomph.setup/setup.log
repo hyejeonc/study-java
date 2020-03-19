@@ -1,0 +1,1284 @@
+[2020-01-21 14:47:52] Executing bootstrap tasks
+[2020-01-21 14:47:52] OpenJDK Runtime Environment 13.0.2+8
+[2020-01-21 14:47:52] Product user.products.tdt4100.2019-12
+[2020-01-21 14:47:52] Workspace /Users/hye/Documents/study-java/tdt4100-v2020-master/ws
+[2020-01-21 14:47:52] Project com.github.user.project.tdt4100-v2020.master
+[2020-01-21 14:47:52] Bundle org.eclipse.oomph.setup 1.16.0.v20200105-1257, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:47:52] Bundle org.eclipse.oomph.setup.core 1.16.0.v20200110-0857, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:47:52] Bundle org.eclipse.oomph.setup.installer 1.16.0.v20200113-0727, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:47:52] Bundle org.eclipse.oomph.setup.p2 1.14.0.v20200102-0955, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:47:52] Performing Workspace /Users/hye/Documents/study-java/tdt4100-v2020-master/ws
+[2020-01-21 14:47:52] Performing P2 Director (TDT4100 (2019-12))
+[2020-01-21 14:47:52] Offline = false
+[2020-01-21 14:47:52] Mirrors = true
+[2020-01-21 14:47:52] Resolving 18 requirements from 7 repositories to /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse
+[2020-01-21 14:47:52] Requirement org.eclipse.platform.ide
+[2020-01-21 14:47:52] Requirement org.eclipse.platform.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.rcp.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.jdt.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.pde.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.egit.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.oomph.setup.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.fx.ide.basic.feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.fx.ide.css.feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.fx.ide.fxml.feature.feature.group
+[2020-01-21 14:47:52] Requirement net.sourceforge.plantuml.feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.m2e.feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.tm.terminal.feature.feature.group
+[2020-01-21 14:47:52] Requirement no.hal.learning.exercise.feature.feature.group [0.1.0.202001020956,0.1.0.202001020956]
+[2020-01-21 14:47:52] Requirement jdt-codemining-feature.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.oomph.setup.git.feature.group
+[2020-01-21 14:47:52] Requirement org.eclipse.oomph.setup.projects.feature.group
+[2020-01-21 14:47:52] Repository http://download.eclipse.org/releases/2019-12
+[2020-01-21 14:47:52] Repository http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/
+[2020-01-21 14:47:52] Repository http://hallvard.github.io/plantuml/
+[2020-01-21 14:47:52] Repository http://oss.opensagres.fr/jdt-codemining/snapshot/
+[2020-01-21 14:47:52] Repository https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository
+[2020-01-21 14:47:52] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2020-01-21 14:47:52] Repository http://download.eclipse.org/egit/updates
+[2020-01-21 14:47:59] Calculating requirements and dependencies.
+[2020-01-21 14:48:01] Computing prerequisite plan
+[2020-01-21 14:48:06] Fetching compositeArtifacts.xml from http://hallvard.github.io/plantuml/
+[2020-01-21 14:48:07] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.lib/1.2018.9/ (700B)
+[2020-01-21 14:48:07] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.lib/1.2018.12/ (700B)
+[2020-01-21 14:48:07] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.0/ (700B)
+[2020-01-21 14:48:08] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.11/ (1,016B)
+[2020-01-21 14:48:08] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.20/ (920B)
+[2020-01-21 14:48:08] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.21/ (916B)
+[2020-01-21 14:48:09] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.22/ (920B)
+[2020-01-21 14:48:09] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.23/ (1.22kB)
+[2020-01-21 14:48:09] Fetching artifacts.xml.xz from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/ (1.21kB)
+[2020-01-21 14:48:10] Fetching artifacts.xml.xz from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/ (1.59kB)
+[2020-01-21 14:48:10] Fetching compositeArtifacts.jar from http://download.eclipse.org/releases/2019-12/ (483B)
+[2020-01-21 14:48:12] Fetching artifacts.xml.xz from http://oss.opensagres.fr/jdt-codemining/snapshot/
+[2020-01-21 14:48:13] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (444B)
+[2020-01-21 14:48:13] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ (9.77kB)
+[2020-01-21 14:48:14] Fetching artifacts.xml.xz from http://download.eclipse.org/egit/updates/
+[2020-01-21 14:48:14] Fetching artifacts.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/ (5.48kB)
+[2020-01-21 14:48:15] Fetching p2.index from https://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui/
+[2020-01-21 14:48:16] Fetching artifacts.xml.xz from https://download.eclipse.org/e4/snapshots/org.eclipse.e4.ui/
+[2020-01-21 14:48:17] Collecting 7 artifacts from http://hallvard.github.io/plantuml/
+[2020-01-21 14:48:17] Downloading net.sourceforge.plantuml.lib.feature
+[2020-01-21 14:48:17] Downloading net.sourceforge.plantuml.lib
+[2020-01-21 14:48:17] Fetching net.sourceforge.plantuml.lib_1.2019.11.jar from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.11/plugins/ (6.91MB)
+[2020-01-21 14:48:17] Fetching net.sourceforge.plantuml.lib.feature_1.2019.11.jar from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.11/features/ (13kB)
+[2020-01-21 14:48:18] Fetching net.sourceforge.plantuml.lib_1.2019.11.jar from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.11/plugins/
+[2020-01-21 14:48:24] Downloading net.sourceforge.plantuml.feature
+[2020-01-21 14:48:24] Downloading net.sourceforge.plantuml.text
+[2020-01-21 14:48:24] Downloading net.sourceforge.plantuml.eclipse
+[2020-01-21 14:48:24] Downloading net.sourceforge.plantuml.eclipse.imagecontrol
+[2020-01-21 14:48:24] Downloading net.sourceforge.plantuml.jdt
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.feature_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/features/ (13.1kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.eclipse.imagecontrol_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/plugins/ (26.94kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.feature_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/features/ (13.1kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.eclipse_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/plugins/ (91.49kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.text_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/plugins/ (23.99kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.eclipse_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/plugins/ (91.49kB)
+[2020-01-21 14:48:24] Fetching net.sourceforge.plantuml.jdt_1.1.24.jar from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/plugins/ (24.27kB)
+[2020-01-21 14:48:24] Mirrored 2 artifacts from http://hallvard.github.io/plantuml/plantuml.lib/1.2019.11/ at 1,018kb/s
+[2020-01-21 14:48:24] Mirrored 5 artifacts from http://hallvard.github.io/plantuml/plantuml.eclipse/1.1.24/ at 110kb/s
+[2020-01-21 14:48:24] Collected 7 artifacts for http://hallvard.github.io/plantuml/ in 7.784s
+[2020-01-21 14:48:24] Collecting 3 artifacts from http://oss.opensagres.fr/jdt-codemining/snapshot/
+[2020-01-21 14:48:24] Downloading org.eclipse.egit.codemining
+[2020-01-21 14:48:24] Downloading org.eclipse.jdt.codemining
+[2020-01-21 14:48:24] Downloading jdt-codemining-feature
+[2020-01-21 14:48:25] Fetching org.eclipse.egit.codemining_1.0.0.201812140938.jar from http://oss.opensagres.fr/jdt-codemining/snapshot/plugins/ (8.36kB)
+[2020-01-21 14:48:25] Fetching jdt-codemining-feature_1.0.0.201812140938.jar from http://oss.opensagres.fr/jdt-codemining/snapshot/features/ (11.61kB)
+[2020-01-21 14:48:25] Fetching jdt-codemining-feature_1.0.0.201812140938.jar from http://oss.opensagres.fr/jdt-codemining/snapshot/features/ (11.61kB)
+[2020-01-21 14:48:27] Fetching org.eclipse.jdt.codemining_1.0.0.201812140938.jar from http://oss.opensagres.fr/jdt-codemining/snapshot/plugins/ (102.35kB)
+[2020-01-21 14:48:27] Mirrored 3 artifacts from http://oss.opensagres.fr/jdt-codemining/snapshot/ at 23kb/s
+[2020-01-21 14:48:27] Collected 3 artifacts for http://oss.opensagres.fr/jdt-codemining/snapshot/ in 3.026s
+[2020-01-21 14:48:27] Collecting 22 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.git.edit
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.jreinfo
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.git
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.projects
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.p2
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.core
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.git
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.projects.edit
+[2020-01-21 14:48:28] Downloading org.eclipse.nebula.widgets.tablecombo
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.git_1.16.0.v20200110-1135.jar from http://ftp.fau.de/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/features/ (19.07kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.p2_1.15.0.v20200113-0727.jar from http://ftp.snt.utwente.nl/pub/software/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/features/ (19.14kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup_1.16.0.v20200113-0727.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/features/ (19.18kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.core_1.16.0.v20200110-0857.jar from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/features/ (19.3kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.202001052049.jar from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (36.44kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.projects_1.13.0.v20200102-1304.jar from http://eclipse.mirror.garr.it/mirrors/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/features/ (19.07kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.jreinfo_1.12.0.v20191228-0803.jar.pack.gz from https://mirrors.dotsrc.org/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (17.88kB)
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.p2
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.git_1.16.0.v20200110-1135.jar.pack.gz from http://mirrors.uniri.hr/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (26.09kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.git.edit_1.10.0.v20180706-1242.jar.pack.gz from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (14.76kB)
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.doc
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.p2.ui
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.p2_1.14.0.v20200102-0955.jar.pack.gz from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (23.39kB)
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.p2.core
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.ui
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.projects.edit_1.11.0.v20200102-1304.jar.pack.gz from http://ftp.linux.org.tr/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (14.42kB)
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.core
+[2020-01-21 14:48:28] Downloading org.eclipse.oomph.setup.ui
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.core_1.16.0.v20200110-0857.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (107.26kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.doc_1.10.0.v20200104-0906.jar from https://ftp.acc.umu.se/mirror/eclipse.org/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (2.49MB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.core_1.16.0.v20200110-0857.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (107.26kB)
+[2020-01-21 14:48:28] Fetching org.eclipse.oomph.setup.doc_1.10.0.v20200104-0906.jar from https://ftp.acc.umu.se/mirror/eclipse.org/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (2.49MB)
+[2020-01-21 14:48:29] Downloading org.eclipse.oomph.setup.editor
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.setup.ui_1.16.0.v20200111-1101.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (233.4kB)
+[2020-01-21 14:48:29] Downloading org.eclipse.oomph.util
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.p2.core_1.15.0.v20200113-0727.jar.pack.gz from http://mirror.ibcp.fr/pub/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (123.94kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.setup.editor_1.16.0.v20200102-1031.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (170.67kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.ui_1.13.0.v20191221-1101.jar.pack.gz from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (121.71kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.setup_1.16.0.v20200105-1257.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (136.4kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.util_1.14.0.v20200113-0727.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (76.09kB)
+[2020-01-21 14:48:29] Downloading org.eclipse.oomph.setup.sync
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.util_1.14.0.v20200113-0727.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (76.09kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.p2.ui_1.13.0.v20200102-0955.jar.pack.gz from https://eclipse.mirror.liteserver.nl/oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (120.66kB)
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.setup.sync_1.12.0.v20200107-1045.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (46.16kB)
+[2020-01-21 14:48:29] Downloading org.eclipse.oomph.setup.projects
+[2020-01-21 14:48:29] Fetching org.eclipse.oomph.setup.projects_1.12.0.v20200102-1304.jar.pack.gz from http://mirror.ibcp.fr/pub/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/plugins/ (23.33kB)
+[2020-01-21 14:48:30] Mirrored 1 artifacts from https://ftp.acc.umu.se/mirror/eclipse.org/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 2,197kb/s
+[2020-01-21 14:48:30] Mirrored 5 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 248kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from https://eclipse.mirror.liteserver.nl/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 195kb/s
+[2020-01-21 14:48:30] Mirrored 2 artifacts from http://mirror.ibcp.fr/pub/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 193kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 176kb/s
+[2020-01-21 14:48:30] Mirrored 2 artifacts from http://ftp.snt.utwente.nl/pub/software/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 144kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 102kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 92kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 86kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://mirrors.uniri.hr/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 73kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 70kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://mirror.dkm.cz/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 68kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://eclipse.mirror.garr.it/mirrors/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 53kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 48kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 30kb/s
+[2020-01-21 14:48:30] Mirrored 1 artifacts from http://ftp.linux.org.tr/eclipse//oomph/drops/milestone/S20200113-061047-1.16.0-M1/ at 21kb/s
+[2020-01-21 14:48:30] Collected 22 artifacts for http://download.eclipse.org/oomph/updates/milestone/latest in 2.748s
+[2020-01-21 14:48:30] Collecting 25 artifacts from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ui.workbench3
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ide.css.cssext.proposals
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.core.guice
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ide.fxml.feature
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.runtime.min.feature
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ide.basic.feature
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ide.css.feature
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ide.jdt.core
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.ui.animation
+[2020-01-21 14:48:30] Downloading org.eclipse.fx.osgi.util
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ui.workbench3_3.6.0.201907240103.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (8.97kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.fxml.feature_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (16.96kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.runtime.min.feature_3.6.0.201907240103.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (17.03kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.basic.feature_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (17.03kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.runtime.min.feature_3.6.0.201907240103.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (17.03kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.basic.feature_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (17.03kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.css.feature_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/features/ (17.06kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.jdt.core_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (25.89kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ide.css.cssext.proposals_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (13.39kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.ui.animation_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (32.77kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.core.guice_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (14.13kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.osgi.util_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (27.23kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.core.guice_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (14.13kB)
+[2020-01-21 14:48:30] Fetching org.eclipse.fx.osgi.util_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (27.23kB)
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css.jfx2
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css.jfx8
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ui.controls
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css.cssext
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.jdt.ui
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.core
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css.jfx2_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (33.47kB)
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css.cssext.ui
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.css.ui
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.fxml
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css.jfx8_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (33.71kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ui.controls_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (831.02kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.core_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (428.88kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.jdt.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (458.82kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (204.64kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (322.72kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css.cssext_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (630.18kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.fxml_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (132.65kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.css.cssext.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (211.32kB)
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.ui
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ui.panes
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ide.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (84.09kB)
+[2020-01-21 14:48:31] Fetching org.eclipse.fx.ui.panes_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (82.44kB)
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.ui.preview
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.osgi
+[2020-01-21 14:48:31] Downloading org.eclipse.fx.ide.model
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.ui.preview_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (75.4kB)
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.osgi_3.6.0.201907240103.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (45.98kB)
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.model_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/ (44.83kB)
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ui.controls_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.css.cssext_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.css_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.css.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.core_3.6.0.201907240201.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:32] Fetching org.eclipse.fx.ide.css.cssext.ui_3.5.0.201907240300.jar from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/plugins/
+[2020-01-21 14:48:34] Mirrored 25 artifacts from http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/ at 198kb/s
+[2020-01-21 14:48:34] Collected 25 artifacts for http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/ in 4.161s
+[2020-01-21 14:48:34] Collecting 64 artifacts from http://download.eclipse.org/releases/2019-12
+[2020-01-21 14:48:35] Downloading org.eclipse.platform_root
+[2020-01-21 14:48:35] Downloading org.eclipse.pde.api.tools.annotations
+[2020-01-21 14:48:35] Downloading org.eclipse.cdt.core.native
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.connector.local.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.view.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.control.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.connector.telnet.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.connector.ssh.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.feature
+[2020-01-21 14:48:35] Downloading org.eclipse.xtext.smap
+[2020-01-21 14:48:35] Downloading org.eclipse.pde
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.view.feature_4.5.200.201911240504.jar from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2019-12/201912181000/features/ (18.09kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.control.feature_4.5.102.201911240504.jar from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/features/ (18.1kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.connector.local.feature_4.5.100.201911240504.jar from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/2019-12/201912181000/features/ (18.07kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.cdt.core.native_5.10.300.201910171407.jar.pack.gz from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/2019-12/201912181000/plugins/ (17.19kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.pde.api.tools.annotations_1.1.400.v20190929-1236.jar.pack.gz from http://mirrors.uniri.hr/eclipse//releases/2019-12/201912181000/plugins/ (7.65kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.connector.telnet.feature_4.5.100.201911240504.jar from http://ftp.fau.de/eclipse/releases/2019-12/201912181000/features/ (18.11kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.xtext.smap_2.20.0.v20191202-0933.jar.pack.gz from http://ftp.halifax.rwth-aachen.de/eclipse//releases/2019-12/201912181000/plugins/ (12.11kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.feature_4.5.200.201911240504.jar from http://mirror.tspu.ru/eclipse/releases/2019-12/201912181000/features/ (18.26kB)
+[2020-01-21 14:48:35] Fetching org.eclipse.tm.terminal.connector.ssh.feature_4.5.100.201911240504.jar from http://mirror.dkm.cz/eclipse/releases/2019-12/201912181000/features/ (18.15kB)
+[2020-01-21 14:48:35] Downloading org.eclipse.emf.databinding.edit
+[2020-01-21 14:48:35] Downloading org.eclipse.cdt.core.macosx
+[2020-01-21 14:48:35] Downloading org.eclipse.xtend.lib.macro
+[2020-01-21 14:48:35] Downloading org.eclipse.tools.layout.spy
+[2020-01-21 14:48:35] Downloading org.eclipse.rcp_root
+[2020-01-21 14:48:35] Downloading org.eclipse.ui.trace
+[2020-01-21 14:48:35] Downloading org.eclipse.tm.terminal.connector.local
+[2020-01-21 14:48:35] Downloading org.eclipse.pde.junit.runtime
+[2020-01-21 14:48:35] Fetching org.eclipse.xtend.lib.macro_2.20.0.v20191202-0907.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (23.27kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.junit.runtime_3.5.600.v20191105-0947.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (13.99kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.emf.databinding.edit_1.6.0.v20190323-1031.jar.pack.gz from http://ftp.linux.org.tr/eclipse//releases/2019-12/201912181000/plugins/ (20.72kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.ds1_2.lib
+[2020-01-21 14:48:36] Fetching org.eclipse.tm.terminal.connector.local_4.5.100.201901312304.jar from http://mirror.ibcp.fr/pub/eclipse//releases/2019-12/201912181000/plugins/ (27.62kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.cdt.core.macosx_5.3.1.201811241055.jar.pack.gz from https://eclipse.mirror.liteserver.nl/releases/2019-12/201912181000/plugins/ (22.69kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ds1_2.lib_1.0.400.v20191119-0943.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (27.92kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.pde_3.14.200.v20191210-0610.jar from https://mirrors.dotsrc.org/eclipse//releases/2019-12/201912181000/features/ (19.45kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.tm.terminal.connector.process
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.ds.lib
+[2020-01-21 14:48:36] Fetching org.eclipse.tm.terminal.connector.process_4.5.100.201901312304.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (31.04kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.ua.core
+[2020-01-21 14:48:36] Fetching org.eclipse.tools.layout.spy_1.0.400.v20190709-0901.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2019-12/201912181000/plugins/ (24.9kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.tm.terminal.view.core
+[2020-01-21 14:48:36] Fetching org.eclipse.tools.layout.spy_1.0.400.v20190709-0901.jar.pack.gz from http://eclipse.mirror.rafal.ca/releases/2019-12/201912181000/plugins/ (24.9kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.ui.trace_1.1.700.v20191105-1619.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/releases/2019-12/201912181000/plugins/ (26.3kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ua.core_1.1.400.v20190929-1236.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (33.08kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ds.lib_1.1.400.v20191119-0943.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (31.5kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.emf.ecore.editor
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ds.lib_1.1.400.v20191119-0943.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (31.5kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.emf.ecore.editor_2.17.0.v20190528-0725.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (44.93kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.tm.terminal.view.core_4.5.100.201901312304.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (41.6kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.pde
+[2020-01-21 14:48:36] Downloading org.eclipse.xtext.common.types.edit
+[2020-01-21 14:48:36] Fetching org.eclipse.pde_3.13.800.v20191210-0610.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (46.75kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.xtext.common.types.edit_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (49.92kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.tm.terminal.connector.telnet
+[2020-01-21 14:48:36] Fetching org.eclipse.tm.terminal.connector.telnet_4.5.100.201901312304.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (53.02kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.tm.terminal.connector.ssh
+[2020-01-21 14:48:36] Downloading org.eclipse.xtext.ui.codetemplates
+[2020-01-21 14:48:36] Fetching org.eclipse.tm.terminal.connector.ssh_4.5.100.201901312304.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (54.36kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.xtext.ui.codetemplates_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (57.37kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.ds.core
+[2020-01-21 14:48:36] Downloading org.eclipse.xtend.lib
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ds.core_1.1.700.v20191011-0635.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (26.05kB)
+[2020-01-21 14:48:36] Fetching org.eclipse.xtend.lib_2.20.0.v20191202-0907.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (59.29kB)
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.doc.user
+[2020-01-21 14:48:36] Downloading org.eclipse.xtext
+[2020-01-21 14:48:36] Downloading org.eclipse.pde.ui
+[2020-01-21 14:48:36] Fetching org.eclipse.pde.ui_3.11.200.v20191112-0626.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (1.47MB)
+[2020-01-21 14:48:37] Fetching org.eclipse.xtext_2.20.0.v20191202-0915.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (769.1kB)
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.core
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.api.tools
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.core_3.13.200.v20191202-2135.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (1.29MB)
+[2020-01-21 14:48:37] Downloading org.eclipse.xtext.ui
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.api.tools_1.1.1000.v20191113-1255.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (922.91kB)
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.doc.user_3.14.600.v20191204-0828.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (6.71MB)
+[2020-01-21 14:48:37] Downloading com.google.inject
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.api.tools.ui
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.build
+[2020-01-21 14:48:37] Fetching org.eclipse.xtext.ui_2.20.0.v20191202-1016.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (579.88kB)
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.build_3.10.600.v20191011-0535.jar from http://mirror.ibcp.fr/pub/eclipse//releases/2019-12/201912181000/plugins/ (478.7kB)
+[2020-01-21 14:48:37] Fetching com.google.inject_3.0.0.v201605172100.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (141.47kB)
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.api.tools.ui_1.1.900.v20191115-2141.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (206.47kB)
+[2020-01-21 14:48:37] Fetching com.google.inject_3.0.0.v201605172100.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (141.47kB)
+[2020-01-21 14:48:37] Downloading io.github.classgraph
+[2020-01-21 14:48:37] Fetching io.github.classgraph_4.8.35.v20190528-1517.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (476.29kB)
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.ua.ui
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.ua.ui_1.1.700.v20191011-0551.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (144.81kB)
+[2020-01-21 14:48:37] Downloading org.eclipse.pde.ui.templates
+[2020-01-21 14:48:37] Fetching org.eclipse.pde.ui.templates_3.6.800.v20191003-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (377.12kB)
+[2020-01-21 14:48:38] Fetching org.eclipse.pde.ui_3.11.200.v20191112-0626.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/
+[2020-01-21 14:48:38] Fetching org.eclipse.pde.doc.user_3.14.600.v20191204-0828.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/
+[2020-01-21 14:48:38] Fetching org.eclipse.xtext.ui_2.20.0.v20191202-1016.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/
+[2020-01-21 14:48:38] Downloading org.eclipse.xtext.util
+[2020-01-21 14:48:38] Fetching org.eclipse.xtext.util_2.20.0.v20191202-0915.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (107.98kB)
+[2020-01-21 14:48:38] Downloading org.eclipse.xtext.common.types.ui
+[2020-01-21 14:48:38] Fetching org.eclipse.xtext.common.types.ui_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (87.82kB)
+[2020-01-21 14:48:38] Downloading org.eclipse.tm.terminal.view.ui
+[2020-01-21 14:48:38] Downloading org.eclipse.platform.ide.executable.cocoa.macosx.x86_64
+[2020-01-21 14:48:38] Downloading org.eclipse.xtext.ide
+[2020-01-21 14:48:38] Fetching org.eclipse.tm.terminal.view.ui_4.5.200.201911231043.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (253kB)
+[2020-01-21 14:48:38] Fetching org.eclipse.xtext.ide_2.20.0.v20191202-0915.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (234.82kB)
+[2020-01-21 14:48:38] Downloading org.eclipse.pde.runtime
+[2020-01-21 14:48:39] Downloading org.antlr.runtime
+[2020-01-21 14:48:39] Fetching org.eclipse.pde.runtime_3.6.700.v20191107-0634.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (114.33kB)
+[2020-01-21 14:48:39] Fetching org.antlr.runtime_3.2.0.v201101311130.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (201.73kB)
+[2020-01-21 14:48:39] Fetching org.eclipse.pde.runtime_3.6.700.v20191107-0634.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (114.33kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.tm.terminal.control
+[2020-01-21 14:48:39] Fetching org.eclipse.tm.terminal.control_4.5.102.201907171153.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (185.79kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.xtext.xbase.lib
+[2020-01-21 14:48:39] Downloading org.eclipse.xtext.common.types
+[2020-01-21 14:48:39] Fetching org.eclipse.xtext.xbase.lib_2.20.0.v20191202-0907.jar.pack.gz from http://mirror.ibcp.fr/pub/eclipse//releases/2019-12/201912181000/plugins/ (49.19kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.xtext.ui.codetemplates.ide
+[2020-01-21 14:48:39] Fetching org.eclipse.xtext.common.types_2.20.0.v20191202-0933.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (133.93kB)
+[2020-01-21 14:48:39] Fetching org.eclipse.xtext.ui.codetemplates.ide_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (40.24kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.xtext.builder
+[2020-01-21 14:48:39] Downloading org.eclipse.xtext.ui.codetemplates.ui
+[2020-01-21 14:48:39] Fetching org.eclipse.xtext.builder_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (129.83kB)
+[2020-01-21 14:48:39] Fetching org.eclipse.xtext.ui.codetemplates.ui_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (43.21kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.pde.launching
+[2020-01-21 14:48:39] Downloading org.objectweb.asm
+[2020-01-21 14:48:39] Fetching org.eclipse.pde.launching_3.8.0.v20191112-0655.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (51.56kB)
+[2020-01-21 14:48:39] Fetching org.objectweb.asm_7.2.0.v20191010-1910.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (58.83kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.pde.genericeditor.extension
+[2020-01-21 14:48:39] Fetching org.eclipse.pde.genericeditor.extension_1.0.600.v20191107-0648.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (32.79kB)
+[2020-01-21 14:48:39] Downloading org.eclipse.pde.ds.ui
+[2020-01-21 14:48:39] Downloading org.eclipse.pde.ds.annotations
+[2020-01-21 14:48:39] Fetching org.eclipse.pde.ds.ui_1.1.700.v20190807-1130.jar.pack.gz from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/plugins/ (80.05kB)
+[2020-01-21 14:48:40] Fetching org.eclipse.pde.ds.annotations_1.1.600.v20190929-1236.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (63.22kB)
+[2020-01-21 14:48:40] Downloading org.objectweb.asm.tree
+[2020-01-21 14:48:40] Fetching org.eclipse.pde.ds.annotations_1.1.600.v20190929-1236.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (63.22kB)
+[2020-01-21 14:48:40] Fetching org.objectweb.asm.tree_7.2.0.v20191010-1910.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (25.81kB)
+[2020-01-21 14:48:40] Downloading org.eclipse.xtext.ui.shared
+[2020-01-21 14:48:40] Fetching org.eclipse.xtext.ui.shared_2.20.0.v20191202-1016.jar.pack.gz from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/plugins/ (25.65kB)
+[2020-01-21 14:48:43] Mirrored 36 artifacts from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2019-12/201912181000/ at 1,339kb/s
+[2020-01-21 14:48:43] Mirrored 3 artifacts from http://mirror.ibcp.fr/pub/eclipse//releases/2019-12/201912181000/ at 435kb/s
+[2020-01-21 14:48:43] Mirrored 9 artifacts from http://ftp.snt.utwente.nl/pub/software/eclipse//releases/2019-12/201912181000/ at 398kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://ftp-stud.fht-esslingen.de/pub/Mirrors/eclipse/releases/2019-12/201912181000/ at 122kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/releases/2019-12/201912181000/ at 120kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://eclipse.mirror.garr.it/mirrors/eclipse//releases/2019-12/201912181000/ at 99kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://ftp.fau.de/eclipse/releases/2019-12/201912181000/ at 89kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from https://eclipse.mirror.liteserver.nl/releases/2019-12/201912181000/ at 88kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://mirror.dkm.cz/eclipse/releases/2019-12/201912181000/ at 70kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://ftp.halifax.rwth-aachen.de/eclipse//releases/2019-12/201912181000/ at 61kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://ftp.linux.org.tr/eclipse//releases/2019-12/201912181000/ at 61kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://mirror.tspu.ru/eclipse/releases/2019-12/201912181000/ at 52kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://eclipse.mirror.rafal.ca/releases/2019-12/201912181000/ at 51kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://mirrors.uniri.hr/eclipse//releases/2019-12/201912181000/ at 48kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from http://mirror.cc.vt.edu/pub/eclipse/releases/2019-12/201912181000/ at 44kb/s
+[2020-01-21 14:48:43] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//releases/2019-12/201912181000/ at 37kb/s
+[2020-01-21 14:48:43] Collected 64 artifacts for http://download.eclipse.org/releases/2019-12 in 8.733s
+[2020-01-21 14:48:43] Collecting 11 artifacts from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository
+[2020-01-21 14:48:43] Downloading no.hal.emf.ui.utils.feature
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.junit
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.workspace
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.feature
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.jdt.ecore
+[2020-01-21 14:48:43] Downloading exp4j
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.model.ui
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.workbench
+[2020-01-21 14:48:43] Downloading no.hal.learning.exercise.model
+[2020-01-21 14:48:43] Downloading no.hal.emf.ui.utils
+[2020-01-21 14:48:43] Fetching no.hal.learning.exercise.junit_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (29.33kB)
+[2020-01-21 14:48:44] Downloading no.hal.learning.exercise.jdt
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.workspace_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (45.92kB)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.feature_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/features/ (856B)
+[2020-01-21 14:48:44] Fetching no.hal.emf.ui.utils_0.1.1.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (81.38kB)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.jdt.ecore_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (338.84kB)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.model_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (302.98kB)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.workbench_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (57.61kB)
+[2020-01-21 14:48:44] Fetching no.hal.emf.ui.utils.feature_0.1.1.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/features/ (704B)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.jdt_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (53.27kB)
+[2020-01-21 14:48:44] Fetching exp4j_0.4.6.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (37.28kB)
+[2020-01-21 14:48:44] Fetching no.hal.learning.exercise.model.ui_0.1.0.202001020956.jar from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/plugins/ (286.28kB)
+[2020-01-21 14:48:44] Mirrored 11 artifacts from https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository/ at 139kb/s
+[2020-01-21 14:48:44] Collected 11 artifacts for https://raw.github.com/hallvard/jexercise/master/no.hal.learning/no.hal.learning.updatesite/repository in 1.222s
+[2020-01-21 14:48:55] Installing a.jre.javase [13.0.0]
+[2020-01-21 14:48:55] Installing com.google.gson [2.8.2.v20180104-1110]
+[2020-01-21 14:48:55] Installing com.google.guava [27.1.0.v20190517-1946]
+[2020-01-21 14:48:55] Installing com.google.inject [3.0.0.v201605172100]
+[2020-01-21 14:48:55] Installing com.ibm.icu [64.2.0.v20190507-1337]
+[2020-01-21 14:48:55] Installing com.jcraft.jsch [0.1.55.v20190404-1902]
+[2020-01-21 14:48:55] Installing com.jcraft.jzlib [1.1.1.v201205102305]
+[2020-01-21 14:48:55] Installing com.sun.el [2.2.0.v201303151357]
+[2020-01-21 14:48:55] Installing exp4j [0.4.6.202001020956]
+[2020-01-21 14:48:55] Installing io.github.classgraph [4.8.35.v20190528-1517]
+[2020-01-21 14:48:55] Installing javaewah [1.1.6.v20160919-1400]
+[2020-01-21 14:48:55] Installing javax.annotation [1.2.0.v201602091430]
+[2020-01-21 14:48:55] Installing javax.el [2.2.0.v201303151357]
+[2020-01-21 14:48:55] Installing javax.inject [1.0.0.v20091030]
+[2020-01-21 14:48:55] Installing javax.servlet [3.1.0.v201410161800]
+[2020-01-21 14:48:55] Installing javax.servlet.jsp [2.2.0.v201112011158]
+[2020-01-21 14:48:55] Installing javax.xml [1.3.4.v201005080400]
+[2020-01-21 14:48:55] Installing jdt-codemining-feature.feature.group [1.0.0.201812140938]
+[2020-01-21 14:48:55] Installing jdt-codemining-feature.feature.jar [1.0.0.201812140938]
+[2020-01-21 14:48:55] Installing net.i2p.crypto.eddsa [0.3.0.v20181102-1323]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.eclipse [1.1.24]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.eclipse.imagecontrol [1.1.24]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.feature.feature.group [1.1.24]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.feature.feature.jar [1.1.24]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.jdt [1.1.24]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.lib [1.2019.11]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.lib.feature.feature.group [1.2019.11]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.lib.feature.feature.jar [1.2019.11]
+[2020-01-21 14:48:55] Installing net.sourceforge.plantuml.text [1.1.24]
+[2020-01-21 14:48:55] Installing no.hal.emf.ui.utils [0.1.1.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.emf.ui.utils.feature.feature.group [0.1.1.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.emf.ui.utils.feature.feature.jar [0.1.1.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.feature.feature.group [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.feature.feature.jar [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.jdt [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.jdt.ecore [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.junit [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.model [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.model.ui [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.workbench [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing no.hal.learning.exercise.workspace [0.1.0.202001020956]
+[2020-01-21 14:48:55] Installing org.antlr.runtime [3.2.0.v201101311130]
+[2020-01-21 14:48:55] Installing org.apache.ant [1.10.7.v20190926-0324]
+[2020-01-21 14:48:55] Installing org.apache.batik.constants [1.11.0.v20190515-0436]
+[2020-01-21 14:48:55] Installing org.apache.batik.css [1.11.0.v20190515-0436]
+[2020-01-21 14:48:55] Installing org.apache.batik.i18n [1.11.0.v20190515-0436]
+[2020-01-21 14:48:55] Installing org.apache.batik.util [1.11.0.v20190515-0436]
+[2020-01-21 14:48:55] Installing org.apache.commons.codec [1.10.0.v20180409-1845]
+[2020-01-21 14:48:55] Installing org.apache.commons.compress [1.18.0.v20181121-2221]
+[2020-01-21 14:48:55] Installing org.apache.commons.httpclient [3.1.0.v201012070820]
+[2020-01-21 14:48:55] Installing org.apache.commons.io [2.6.0.v20190123-2029]
+[2020-01-21 14:48:55] Installing org.apache.commons.jxpath [1.3.0.v200911051830]
+[2020-01-21 14:48:55] Installing org.apache.commons.lang [2.6.0.v201404270220]
+[2020-01-21 14:48:55] Installing org.apache.commons.lang3 [3.1.0.v201403281430]
+[2020-01-21 14:48:55] Installing org.apache.commons.logging [1.2.0.v20180409-1502]
+[2020-01-21 14:48:55] Installing org.apache.felix.gogo.command [1.0.2.v20170914-1324]
+[2020-01-21 14:48:55] Installing org.apache.felix.gogo.runtime [1.1.0.v20180713-1646]
+[2020-01-21 14:48:55] Installing org.apache.felix.gogo.shell [1.1.0.v20180713-1646]
+[2020-01-21 14:48:55] Installing org.apache.felix.scr [2.1.14.v20190123-1619]
+[2020-01-21 14:48:55] Installing org.apache.httpcomponents.httpclient [4.5.6.v20190503-0009]
+[2020-01-21 14:48:55] Installing org.apache.httpcomponents.httpcore [4.4.10.v20190123-2214]
+[2020-01-21 14:48:55] Installing org.apache.jasper.glassfish [2.2.2.v201501141630]
+[2020-01-21 14:48:55] Installing org.apache.log4j [1.2.15.v201012070815]
+[2020-01-21 14:48:55] Installing org.apache.lucene.analyzers-common [8.0.0.v20190404-1858]
+[2020-01-21 14:48:55] Installing org.apache.lucene.analyzers-smartcn [8.0.0.v20190404-1858]
+[2020-01-21 14:48:55] Installing org.apache.lucene.core [8.0.0.v20190404-1858]
+[2020-01-21 14:48:55] Installing org.apache.lucene.queryparser [6.1.0.v20161115-1612]
+[2020-01-21 14:48:55] Installing org.apache.sshd.osgi [2.2.0.v20190425-2127]
+[2020-01-21 14:48:55] Installing org.apache.sshd.sftp [2.2.0.v20190425-2127]
+[2020-01-21 14:48:55] Installing org.apache.xerces [2.9.0.v201101211617]
+[2020-01-21 14:48:55] Installing org.apache.xml.resolver [1.2.0.v201005080400]
+[2020-01-21 14:48:55] Installing org.apache.xml.serializer [2.7.1.v201005080400]
+[2020-01-21 14:48:55] Installing org.apache.xmlgraphics [2.3.0.v20190515-0436]
+[2020-01-21 14:48:55] Installing org.apiguardian [1.1.0.v20190826-0900]
+[2020-01-21 14:48:55] Installing org.bouncycastle.bcpg [1.64.0.v20191109-0815]
+[2020-01-21 14:48:55] Installing org.bouncycastle.bcpkix [1.64.0.v20191109-0815]
+[2020-01-21 14:48:55] Installing org.bouncycastle.bcprov [1.64.0.v20191109-0815]
+[2020-01-21 14:48:55] Installing org.eclipse.ant.core [3.5.600.v20191122-2102]
+[2020-01-21 14:48:55] Installing org.eclipse.ant.launching [1.2.700.v20191127-0426]
+[2020-01-21 14:48:55] Installing org.eclipse.ant.ui [3.7.600.v20191122-2102]
+[2020-01-21 14:48:55] Installing org.eclipse.cdt.core.macosx [5.3.1.201811241055]
+[2020-01-21 14:48:55] Installing org.eclipse.cdt.core.native [5.10.300.201910171407]
+[2020-01-21 14:48:55] Installing org.eclipse.compare [3.7.800.v20191122-2107]
+[2020-01-21 14:48:55] Installing org.eclipse.compare.core [3.6.700.v20191122-2107]
+[2020-01-21 14:48:55] Installing org.eclipse.core.commands [3.9.600.v20191122-2109]
+[2020-01-21 14:48:55] Installing org.eclipse.core.contenttype [3.7.500.v20190916-2125]
+[2020-01-21 14:48:55] Installing org.eclipse.core.databinding [1.7.700.v20191122-2109]
+[2020-01-21 14:48:55] Installing org.eclipse.core.databinding.beans [1.6.0.v20191118-0932]
+[2020-01-21 14:48:55] Installing org.eclipse.core.databinding.observable [1.8.100.v20191118-0932]
+[2020-01-21 14:48:55] Installing org.eclipse.core.databinding.property [1.7.200.v20191105-1311]
+[2020-01-21 14:48:55] Installing org.eclipse.core.expressions [3.6.600.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.core.externaltools [1.1.500.v20191014-1300]
+[2020-01-21 14:48:55] Installing org.eclipse.core.filebuffers [3.6.800.v20191122-2108]
+[2020-01-21 14:48:55] Installing org.eclipse.core.filesystem [1.7.600.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.core.filesystem.macosx [1.3.200.v20190903-0945]
+[2020-01-21 14:48:55] Installing org.eclipse.core.jobs [3.10.600.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.core.net [1.3.700.v20191122-2107]
+[2020-01-21 14:48:55] Installing org.eclipse.core.resources [3.13.600.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.core.runtime [3.17.0.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.core.variables [3.4.700.v20191114-1848]
+[2020-01-21 14:48:55] Installing org.eclipse.debug.core [3.14.100.v20191115-1406]
+[2020-01-21 14:48:55] Installing org.eclipse.debug.ui [3.14.300.v20191116-2105]
+[2020-01-21 14:48:55] Installing org.eclipse.draw2d [3.10.100.201606061308]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.commands [0.12.800.v20190926-0808]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.contexts [1.8.300.v20191017-1404]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.di [1.7.500.v20190916-2125]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.di.annotations [1.6.500.v20190925-0538]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.di.extensions [0.15.400.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.di.extensions.supplier [0.15.400.v20190709-0707]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.core.services [2.2.100.v20191122-2104]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.emf.xpath [0.2.500.v20191021-1408]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.rcp.feature.group [4.14.0.v20191204-0601]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.rcp.feature.jar [4.14.0.v20191204-0601]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.bindings [0.12.700.v20191105-1310]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.css.core [0.12.900.v20191106-1716]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.css.swt [0.13.700.v20191113-1031]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.css.swt.theme [0.12.500.v20191125-1011]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.di [1.2.700.v20191114-0830]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.dialogs [1.1.600.v20190814-0636]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.model.workbench [2.1.600.v20191106-1503]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.services [1.3.700.v20190930-1643]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.widgets [1.2.600.v20190926-0808]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench [1.11.0.v20191120-1917]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench.addons.swt [1.3.700.v20191030-1314]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench.renderers.swt [0.14.900.v20191114-0715]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench.renderers.swt.cocoa [0.12.400.v20190926-0808]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench.swt [0.14.800.v20190930-1643]
+[2020-01-21 14:48:55] Installing org.eclipse.e4.ui.workbench3 [0.15.300.v20190926-0808]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf [3.9.4.v20191020-1846]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.core.feature.feature.group [1.5.400.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.core.feature.feature.jar [1.5.400.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.core.ssl.feature.feature.group [1.1.300.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.core.ssl.feature.feature.jar [1.1.300.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer [5.0.300.v20191020-1846]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.feature.feature.group [3.14.600.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.feature.feature.jar [3.14.600.v20191023-2007]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.httpclient45.feature.feature.group [1.0.100.v20191024-1546]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.httpclient45.feature.feature.jar [1.0.100.v20191024-1546]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.group [1.1.200.v20191024-1546]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.filetransfer.ssl.feature.feature.jar [1.1.200.v20191024-1546]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.identity [3.9.300.v20191020-1846]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.provider.filetransfer [3.2.500.v20191017-1905]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.provider.filetransfer.httpclient45 [1.0.100.v20191012-1656]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.provider.filetransfer.ssl [1.0.101.v20191012-1926]
+[2020-01-21 14:48:55] Installing org.eclipse.ecf.ssl [1.2.300.v20191012-1926]
+[2020-01-21 14:48:55] Installing org.eclipse.egit [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.codemining [1.0.0.201812140938]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.core [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.doc [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.feature.group [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.feature.jar [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.egit.ui [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.common [2.17.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.common.feature.group [2.17.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.common.feature.jar [2.17.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.common.ui [2.18.0.v20190507-0402]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.databinding [1.5.0.v20180706-1146]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.databinding.edit [1.6.0.v20190323-1031]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore [2.20.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.change [2.14.0.v20190528-0725]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.edit [2.13.0.v20190822-1451]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.editor [2.17.0.v20190528-0725]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.feature.group [2.20.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.feature.jar [2.20.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.ecore.xmi [2.16.0.v20190528-0725]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.edit [2.16.0.v20190920-0401]
+[2020-01-21 14:48:55] Installing org.eclipse.emf.edit.ui [2.17.0.v20190920-0412]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.app [1.4.300.v20190815-1535]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.bidi [1.2.200.v20191008-0718]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.common [3.10.600.v20191004-1420]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.concurrent [1.1.400.v20190621-0852]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.console [1.4.0.v20190819-1430]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.event [1.5.300.v20191001-1333]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.frameworkadmin [2.1.400.v20191002-0702]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.frameworkadmin.equinox [1.1.200.v20191015-1207]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.http.jetty [3.7.300.v20191015-2006]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.http.registry [1.1.700.v20190214-1948]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.http.servlet [1.6.300.v20191011-1612]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.jsp.jasper [1.1.300.v20190714-1850]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.jsp.jasper.registry [1.1.300.v20190714-1850]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.launcher [1.5.600.v20191014-2022]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.1100.v20190907-0426]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.artifact.repository [1.3.300.v20191015-1504]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.console [1.1.300.v20191014-1219]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.core [2.6.200.v20191014-1220]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.core.feature.feature.group [1.6.400.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.core.feature.feature.jar [1.6.400.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.director [2.4.500.v20191014-1220]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.director.app [1.1.400.v20191015-1945]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.directorywatcher [1.2.400.v20191015-1945]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.discovery [1.1.200.v20190611-1008]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.discovery.compatibility [1.1.200.v20190611-1008]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.engine [2.6.500.v20191014-1645]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.extensionlocation [1.3.300.v20191014-1645]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.extras.feature.feature.group [1.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.extras.feature.feature.jar [1.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.garbagecollector [1.1.300.v20191015-1207]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.jarprocessor [1.1.500.v20191014-1732]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.metadata [2.4.600.v20191002-0702]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.metadata.repository [1.3.300.v20191002-0702]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.operations [2.5.600.v20191016-0507]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.publisher [1.5.300.v20191016-0507]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.publisher.eclipse [1.3.400.v20191018-2256]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.rcp.feature.feature.group [1.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.rcp.feature.feature.jar [1.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.reconciler.dropins [1.3.200.v20191016-0510]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.repository [2.4.600.v20191016-0510]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.repository.tools [2.2.400.v20191016-0510]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.touchpoint.eclipse [2.2.500.v20191114-1206]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.touchpoint.natives [1.3.400.v20191017-1917]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.transport.ecf [1.2.300.v20191001-0955]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.ui [2.5.700.v20190930-1517]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.ui.discovery [1.1.300.v20191014-1907]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.ui.importexport [1.2.400.v20191016-0512]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.ui.sdk [1.1.500.v20191016-0512]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.ui.sdk.scheduler [1.4.500.v20191016-0512]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.updatechecker [1.2.200.v20190701-1309]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.updatesite [1.1.300.v20191016-0515]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.user.ui.feature.group [2.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.p2.user.ui.feature.jar [2.4.600.v20191120-0247]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.preferences [3.7.600.v20191017-2055]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.registry [3.8.600.v20191017-2055]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.security [1.3.400.v20191008-0645]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.security.macosx [1.101.200.v20190903-0934]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.security.ui [1.2.500.v20191003-0536]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.simpleconfigurator [1.3.400.v20191015-1836]
+[2020-01-21 14:48:55] Installing org.eclipse.equinox.simpleconfigurator.manipulator [2.1.400.v20191015-1836]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.core [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.core.guice [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.basic.feature.feature.group [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.basic.feature.feature.jar [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.cssext [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.cssext.proposals [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.cssext.ui [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.feature.feature.group [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.feature.feature.jar [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.jfx2 [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.jfx8 [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.css.ui [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.fxml [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.fxml.feature.feature.group [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.fxml.feature.feature.jar [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.jdt.core [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.jdt.ui [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.model [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.ui [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ide.ui.preview [3.5.0.201907240300]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.osgi [3.6.0.201907240103]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.osgi.util [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.runtime.min.feature.feature.group [3.6.0.201907240103]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.runtime.min.feature.feature.jar [3.6.0.201907240103]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ui.animation [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ui.controls [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ui.panes [3.6.0.201907240201]
+[2020-01-21 14:48:55] Installing org.eclipse.fx.ui.workbench3 [3.6.0.201907240103]
+[2020-01-21 14:48:55] Installing org.eclipse.gef [3.11.0.201606061308]
+[2020-01-21 14:48:55] Installing org.eclipse.help [3.8.600.v20191123-0656]
+[2020-01-21 14:48:55] Installing org.eclipse.help.base [4.2.800.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.help.feature.group [2.3.0.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.help.feature.jar [2.3.0.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.help.ui [4.1.700.v20191123-0656]
+[2020-01-21 14:48:55] Installing org.eclipse.help.webapp [3.9.700.v20191123-0656]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt [3.18.200.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.annotation [2.2.400.v20191120-1313]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.apt.core [3.6.550.v20190919-0948]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.apt.pluggable.core [1.2.400.v20190626-1334]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.apt.ui [3.6.300.v20190727-1243]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.codemining [1.0.0.201812140938]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.compiler.apt [1.3.800.v20190919-0948]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.compiler.tool [1.2.700.v20191001-0515]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.core [3.20.0.v20191203-2131]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.core.manipulation [1.13.0.v20191203-0859]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.debug [3.14.0.v20191105-0758]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.debug.ui [3.10.500.v20191130-0156]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.doc.user [3.15.500.v20191204-0828]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.feature.group [3.18.200.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.feature.jar [3.18.200.v20191210-0610]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.junit [3.11.600.v20191115-1651]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.junit.core [3.10.500.v20191115-1651]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.junit.runtime [3.5.0.v20191115-1651]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.junit4.runtime [1.1.1100.v20191009-0503]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.junit5.runtime [1.0.700.v20191009-0503]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.launching [3.16.0.v20191108-0353]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.launching.macosx [3.4.400.v20190925-0944]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.launching.ui.macosx [1.2.400.v20190925-0944]
+[2020-01-21 14:48:55] Installing org.eclipse.jdt.ui [3.20.0.v20191203-1301]
+[2020-01-21 14:48:55] Installing org.eclipse.jem.util [2.1.201.v201903222010]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.continuation [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.http [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.io [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.security [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.server [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.servlet [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jetty.util [9.4.24.v20191120]
+[2020-01-21 14:48:55] Installing org.eclipse.jface [3.18.0.v20191122-2109]
+[2020-01-21 14:48:55] Installing org.eclipse.jface.databinding [1.9.200.v20191113-1050]
+[2020-01-21 14:48:55] Installing org.eclipse.jface.text [3.16.100.v20191203-1634]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.archive [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.feature.group [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.feature.jar [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.http.apache [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.http.apache.feature.group [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.http.apache.feature.jar [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.ssh.apache [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.ssh.apache.feature.group [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jgit.ssh.apache.feature.jar [5.6.0.201912101111-r]
+[2020-01-21 14:48:55] Installing org.eclipse.jsch.core [1.3.700.v20190925-1021]
+[2020-01-21 14:48:55] Installing org.eclipse.jsch.ui [1.3.700.v20191105-0922]
+[2020-01-21 14:48:55] Installing org.eclipse.ltk.core.refactoring [3.10.300.v20191104-1954]
+[2020-01-21 14:48:55] Installing org.eclipse.ltk.ui.refactoring [3.10.100.v20191113-0119]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.archetype.common [1.14.0.20191209-1923]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.binaryproject [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.binaryproject.ui [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.core [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.core.ui [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.discovery [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.editor [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.editor.xml [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.feature.feature.group [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.feature.feature.jar [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.importer [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.jdt [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.jdt.ui [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.launching [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.lifecyclemapping.defaults [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.maven.indexer [1.14.0.20191209-1923]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.maven.runtime [1.14.0.20191209-1923]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.maven.runtime.slf4j.simple [1.14.0.20191209-1923]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.model.edit [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.profiles.core [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.profiles.ui [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.refactoring [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.scm [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.sourcelookup [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.sourcelookup.ui [1.14.0.20191209-1925]
+[2020-01-21 14:48:55] Installing org.eclipse.m2e.workspace.cli [0.3.1]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.core [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.feature.group [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.feature.jar [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.identity.core [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.identity.feature.group [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.identity.feature.jar [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.net [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.notifications.core [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.notifications.feature.group [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.notifications.feature.jar [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.notifications.feed [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.notifications.ui [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.repositories.core [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.repositories.feature.group [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.repositories.feature.jar [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.repositories.ui [1.16.0.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.screenshots [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.ui [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.commons.workbench [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.context.core [3.24.2.v20180905-0014]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.context.ui [3.24.2.v20180905-0014]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.discovery.core [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.discovery.feature.group [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.discovery.feature.jar [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.discovery.ui [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.monitor.core [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.monitor.feature.group [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.monitor.feature.jar [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.monitor.ui [3.24.2.v20180904-2231]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.tasks.core [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.tasks.index.core [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.tasks.index.ui [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.tasks.search [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.tasks.ui [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.ant [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.asciidoc [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.asciidoc.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.confluence [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.confluence.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.context.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.group [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.editors_feature.feature.jar [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.help.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.html [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.markdown [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.markdown.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.mediawiki [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.mediawiki.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.osgi [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.tasks.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.textile [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.textile.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.tracwiki [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.tracwiki.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.twiki [3.0.35.20191206145759]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.twiki.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext.ui [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext_feature.feature.group [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn.wikitext_feature.feature.jar [3.0.35.201912061959]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn_feature.feature.group [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.mylyn_feature.feature.jar [3.24.2.v20180905-0003]
+[2020-01-21 14:48:55] Installing org.eclipse.nebula.widgets.tablecombo [1.2.0.202001052049]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.base [1.12.0.v20190705-1018]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.base.edit [1.12.0.v20190702-1454]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.extractor.lib [1.7.0.v20191111-0627]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.jreinfo [1.12.0.v20191228-0803]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.jreinfo.ui [1.11.0.v20191006-0741]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.p2 [1.11.0.v20190920-0437]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.p2.core [1.15.0.v20200113-0727]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.p2.doc [1.10.0.v20180706-1242]
+[2020-01-21 14:48:55] Installing org.eclipse.oomph.p2.edit [1.11.0.v20190323-1130]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.p2.feature.group [1.15.0.v20200113-0727]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.p2.feature.jar [1.15.0.v20200113-0727]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.p2.ui [1.13.0.v20200102-0955]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.predicates [1.11.0.v20190920-0437]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.predicates.edit [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.preferences [1.11.0.v20190920-0437]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.resources [1.12.0.v20190920-0437]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.resources.edit [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup [1.16.0.v20200105-1257]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.core [1.16.0.v20200110-0857]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.core.feature.group [1.16.0.v20200110-0857]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.core.feature.jar [1.16.0.v20200110-0857]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.doc [1.10.0.v20200104-0906]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.edit [1.14.0.v20190704-1252]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.editor [1.16.0.v20200102-1031]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.feature.group [1.16.0.v20200113-0727]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.feature.jar [1.16.0.v20200113-0727]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.git [1.16.0.v20200110-1135]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.git.edit [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.git.feature.group [1.16.0.v20200110-1135]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.git.feature.jar [1.16.0.v20200110-1135]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.p2 [1.14.0.v20200102-0955]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.p2.edit [1.11.0.v20190702-1454]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.projects [1.12.0.v20200102-1304]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.projects.edit [1.11.0.v20200102-1304]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.projects.feature.group [1.13.0.v20200102-1304]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.projects.feature.jar [1.13.0.v20200102-1304]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.sync [1.12.0.v20200107-1045]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.ui [1.16.0.v20200111-1101]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.setup.ui.questionnaire [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.ui [1.13.0.v20191221-1101]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.util [1.14.0.v20200113-0727]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.workingsets [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.workingsets.edit [1.10.0.v20180706-1242]
+[2020-01-21 14:48:56] Installing org.eclipse.oomph.workingsets.editor [1.11.0.v20190929-1544]
+[2020-01-21 14:48:56] Installing org.eclipse.osgi [3.15.100.v20191114-1701]
+[2020-01-21 14:48:56] Installing org.eclipse.osgi.compatibility.state [1.1.600.v20190814-1451]
+[2020-01-21 14:48:56] Installing org.eclipse.osgi.services [3.8.0.v20190206-2147]
+[2020-01-21 14:48:56] Installing org.eclipse.osgi.util [3.5.300.v20190708-1141]
+[2020-01-21 14:48:56] Installing org.eclipse.pde [3.13.800.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.api.tools [1.1.1000.v20191113-1255]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.api.tools.annotations [1.1.400.v20190929-1236]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.api.tools.ui [1.1.900.v20191115-2141]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.build [3.10.600.v20191011-0535]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.core [3.13.200.v20191202-2135]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.doc.user [3.14.600.v20191204-0828]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ds.annotations [1.1.600.v20190929-1236]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ds.core [1.1.700.v20191011-0635]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ds.lib [1.1.400.v20191119-0943]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ds.ui [1.1.700.v20190807-1130]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ds1_2.lib [1.0.400.v20191119-0943]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.feature.group [3.14.200.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.feature.jar [3.14.200.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.genericeditor.extension [1.0.600.v20191107-0648]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.junit.runtime [3.5.600.v20191105-0947]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.launching [3.8.0.v20191112-0655]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.runtime [3.6.700.v20191107-0634]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ua.core [1.1.400.v20190929-1236]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ua.ui [1.1.700.v20191011-0551]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ui [3.11.200.v20191112-0626]
+[2020-01-21 14:48:56] Installing org.eclipse.pde.ui.templates [3.6.800.v20191003-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.platform [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.doc.user [4.14.0.v20191204-0828]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.feature.group [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.feature.jar [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.ide [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform.ide.executable.cocoa.macosx.x86_64.eclipse [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.platform_root [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.rcp [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.rcp.feature.group [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.rcp.feature.jar [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.rcp_root [4.14.0.v20191210-0610]
+[2020-01-21 14:48:56] Installing org.eclipse.search [3.11.800.v20191122-2108]
+[2020-01-21 14:48:56] Installing org.eclipse.swt [3.113.0.v20191204-0601]
+[2020-01-21 14:48:56] Installing org.eclipse.swt.cocoa.macosx.x86_64 [3.113.0.v20191204-0601]
+[2020-01-21 14:48:56] Installing org.eclipse.team.core [3.8.800.v20191122-2107]
+[2020-01-21 14:48:56] Installing org.eclipse.team.genericeditor.diff.extension [1.0.500.v20190925-1021]
+[2020-01-21 14:48:56] Installing org.eclipse.team.ui [3.8.700.v20191122-2107]
+[2020-01-21 14:48:56] Installing org.eclipse.text [3.10.0.v20191122-2108]
+[2020-01-21 14:48:56] Installing org.eclipse.text.quicksearch [1.0.100.v20191122-2108]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.local [4.5.100.201901312304]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.local.feature.feature.group [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.local.feature.feature.jar [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.process [4.5.100.201901312304]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.ssh [4.5.100.201901312304]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.group [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.ssh.feature.feature.jar [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.telnet [4.5.100.201901312304]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.group [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.connector.telnet.feature.feature.jar [4.5.100.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.control [4.5.102.201907171153]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.control.feature.feature.group [4.5.102.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.control.feature.feature.jar [4.5.102.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.feature.feature.group [4.5.200.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.feature.feature.jar [4.5.200.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.view.core [4.5.100.201901312304]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.view.feature.feature.group [4.5.200.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.view.feature.feature.jar [4.5.200.201911240504]
+[2020-01-21 14:48:56] Installing org.eclipse.tm.terminal.view.ui [4.5.200.201911231043]
+[2020-01-21 14:48:56] Installing org.eclipse.tools.layout.spy [1.0.400.v20190709-0901]
+[2020-01-21 14:48:56] Installing org.eclipse.ui [3.115.0.v20191127-1056]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.browser [3.6.600.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.cheatsheets [3.5.600.v20191123-0656]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.cocoa [1.2.300.v20190926-0808]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.console [3.9.0.v20191126-0912]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.editors [3.13.0.v20191203-1122]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.externaltools [3.4.500.v20191025-1523]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.forms [3.8.200.v20191114-0830]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.genericeditor [1.1.600.v20191114-0832]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.ide [3.16.100.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.ide.application [1.3.500.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.intro [3.5.800.v20191123-0656]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.intro.quicklinks [1.0.400.v20191119-0804]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.intro.universal [3.3.700.v20191025-0657]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.monitoring [1.1.600.v20191106-1253]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.navigator [3.9.100.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.navigator.resources [3.7.100.v20191209-1336]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.net [1.3.600.v20190925-1021]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.themes [1.2.800.v20191127-1314]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.trace [1.1.700.v20191105-1619]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.views [3.10.100.v20191114-0830]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.views.log [1.2.900.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.views.properties.tabbed [3.8.700.v20191113-0939]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.workbench [3.117.0.v20191126-1131]
+[2020-01-21 14:48:56] Installing org.eclipse.ui.workbench.texteditor [3.14.0.v20191122-2108]
+[2020-01-21 14:48:56] Installing org.eclipse.update.configurator [3.4.400.v20191122-2102]
+[2020-01-21 14:48:56] Installing org.eclipse.urischeme [1.0.500.v20191122-2109]
+[2020-01-21 14:48:56] Installing org.eclipse.userstorage [1.2.0.v20190307-0457]
+[2020-01-21 14:48:56] Installing org.eclipse.userstorage.oauth [1.1.0.v20190307-0457]
+[2020-01-21 14:48:56] Installing org.eclipse.userstorage.ui [1.1.0.v20190307-0457]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.core [1.3.0.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.emf [1.2.600.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.emfworkbench.integration [1.2.101.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.environment [1.0.400.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.frameworks [1.2.201.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.frameworks.ui [1.2.400.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.infopop [1.0.300.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.modulecore [1.3.100.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.modulecore.ui [1.0.301.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.project.facet.core [1.4.400.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.snippets [1.2.500.v201811170421]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.ui [1.1.700.v201905071717]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common.uriresolver [1.2.300.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common_core.feature.feature.group [3.10.100.v201904082145]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common_core.feature.feature.jar [3.10.100.v201904082145]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common_ui.feature.feature.group [3.11.0.v201905071717]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.common_ui.feature.feature.jar [3.11.0.v201905071717]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.dtd.core [1.2.0.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.dtd.ui [1.1.200.v201904272112]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.dtd.ui.infopop [1.0.400.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.dtdeditor.doc.user [1.1.0.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.internet.cache [1.0.800.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.sse.core [1.2.100.v201901310548]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.sse.doc.user [1.2.0.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.sse.ui [1.6.200.v201911262138]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.sse.ui.infopop [1.0.300.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.standard.schemas [1.0.800.v201901071922]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.validation [1.2.800.v201904082137]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.validation.infopop [1.0.300.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.validation.ui [1.2.600.v201903222010]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml.core [1.2.200.v201911262147]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml.ui [1.2.300.v201904272112]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml.ui.infopop [1.0.400.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_core.feature.feature.group [3.16.0.v201911262147]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_core.feature.feature.jar [3.16.0.v201911262147]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_ui.feature.feature.group [3.16.0.v201911262138]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_ui.feature.feature.jar [3.16.0.v201911262138]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_userdoc.feature.feature.group [3.16.0.v201909302219]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xml_userdoc.feature.feature.jar [3.16.0.v201909302219]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xmleditor.doc.user [1.1.0.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xsd.core [1.2.0.v201901071922]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xsd.ui [1.3.300.v201904272112]
+[2020-01-21 14:48:56] Installing org.eclipse.wst.xsdeditor.doc.user [1.0.800.v201903222120]
+[2020-01-21 14:48:56] Installing org.eclipse.xsd [2.17.0.v20191117-1035]
+[2020-01-21 14:48:56] Installing org.eclipse.xsd.edit [2.10.0.v20180706-1143]
+[2020-01-21 14:48:56] Installing org.eclipse.xtend.lib [2.20.0.v20191202-0907]
+[2020-01-21 14:48:56] Installing org.eclipse.xtend.lib.macro [2.20.0.v20191202-0907]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext [2.20.0.v20191202-0915]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.builder [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.common.types [2.20.0.v20191202-0933]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.common.types.edit [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.common.types.ui [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ide [2.20.0.v20191202-0915]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.smap [2.20.0.v20191202-0933]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ui [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ui.codetemplates [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ui.codetemplates.ide [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ui.codetemplates.ui [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.ui.shared [2.20.0.v20191202-1016]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.util [2.20.0.v20191202-0915]
+[2020-01-21 14:48:56] Installing org.eclipse.xtext.xbase.lib [2.20.0.v20191202-0907]
+[2020-01-21 14:48:56] Installing org.hamcrest.core [1.3.0.v20180420-1519]
+[2020-01-21 14:48:56] Installing org.jsoup [1.8.3.v20181012-1713]
+[2020-01-21 14:48:56] Installing org.junit [4.12.0.v201504281640]
+[2020-01-21 14:48:56] Installing org.junit.jupiter.api [5.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.jupiter.engine [5.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.jupiter.migrationsupport [5.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.jupiter.params [5.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.platform.commons [1.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.platform.engine [1.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.platform.launcher [1.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.platform.runner [1.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.platform.suite.api [1.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.junit.vintage.engine [5.5.1.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.maven.ide.eclipse [1.14.0.20191209-1925]
+[2020-01-21 14:48:56] Installing org.objectweb.asm [7.2.0.v20191010-1910]
+[2020-01-21 14:48:56] Installing org.objectweb.asm.tree [7.2.0.v20191010-1910]
+[2020-01-21 14:48:56] Installing org.opentest4j [1.2.0.v20190826-0900]
+[2020-01-21 14:48:56] Installing org.sat4j.core [2.3.5.v201308161310]
+[2020-01-21 14:48:56] Installing org.sat4j.pb [2.3.5.v201404071733]
+[2020-01-21 14:48:56] Installing org.slf4j.api [1.7.2.v20121108-1250]
+[2020-01-21 14:48:56] Installing org.slf4j.impl.log4j12 [1.7.2.v20131105-2200]
+[2020-01-21 14:48:56] Installing org.tukaani.xz [1.8.0.v20180207-1613]
+[2020-01-21 14:48:56] Installing org.w3c.css.sac [1.3.1.v200903091627]
+[2020-01-21 14:48:56] Installing org.w3c.dom.events [3.0.0.draft20060413_v201105210656]
+[2020-01-21 14:48:56] Installing org.w3c.dom.smil [1.0.1.v200903091627]
+[2020-01-21 14:48:56] Installing org.w3c.dom.svg [1.1.0.v201011041433]
+[2020-01-21 14:48:56] Installing tooling.org.eclipse.update.feature.default [1.0.0]
+[2020-01-21 14:48:56] Installing tooling.osgi.bundle.default [1.0.0]
+[2020-01-21 14:48:56] Installing tooling.source.default [1.0.0]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.apache.felix.scr [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.eclipse.core.runtime [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.common [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.event [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.p2.reconciler.dropins [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingcocoa.macosx.x86_64org.eclipse.equinox.simpleconfigurator [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.equinox.launcher [1.5.600.v20191014-2022]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64 [1.1.1100.v20190907-0426]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.configuration.macosx [1.0.0]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.ide.application [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.ide.config.cocoa.macosx.x86_64 [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.ide.configuration [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.ide.executable.cocoa.macosx.x86_64 [4.14.0.I20191210-0610]
+[2020-01-21 14:48:56] Installing toolingorg.eclipse.platform.ide.ini.cocoa.macosx.x86_64 [4.14.0.I20191210-0610]
+[2020-01-21 14:48:57] Preparing to commit the provisioning operation.
+[2020-01-21 14:48:57] Committing the provisioning operation.
+[2020-01-21 14:49:01] Performing Eclipse Ini --launcher.appendVmargs
+[2020-01-21 14:49:01] Performing Eclipse Ini -vm /Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/bin
+[2020-01-21 14:49:01] Changing /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-vm /Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/bin)
+[2020-01-21 14:49:01] Performing Eclipse Ini -Declipse.p2.max.threads=10
+[2020-01-21 14:49:01] Changing /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Declipse.p2.max.threads=10)
+[2020-01-21 14:49:01] Performing Eclipse Ini -Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest
+[2020-01-21 14:49:01] Changing /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.update.url=http://download.eclipse.org/oomph/updates/milestone/latest)
+[2020-01-21 14:49:01] Performing Eclipse Ini -Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/
+[2020-01-21 14:49:01] Changing /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/eclipse.ini (-Doomph.redirection.index.redirection=index:/->http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/)
+[2020-01-21 14:49:01] Performing Resource Creation configuration:/.settings/org.eclipse.ui.ide.prefs
+[2020-01-21 14:49:01] Creating file:/Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/configuration/.settings/org.eclipse.ui.ide.prefs
+[2020-01-21 14:49:01] Performing Text Modify configuration:/config.ini
+[2020-01-21 14:49:01] Modifying file:/Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/configuration/config.ini
+[2020-01-21 14:49:01] Performing post bootstrap tasks
+[2020-01-21 14:49:01] Changing /Users/hye/Documents/study-java/tdt4100-v2020-master/Eclipse.app/Contents/Eclipse/configuration/config.ini (osgi.configuration.cascaded=false)
+[2020-01-21 14:49:01] 
+[2020-01-21 14:49:01] Launching the installed product...
+[2020-01-21 14:49:37] Executing startup tasks
+[2020-01-21 14:49:38] Java(TM) SE Runtime Environment 13.0.1+9
+[2020-01-21 14:49:38] Product user.products.tdt4100.2019-12
+[2020-01-21 14:49:38] Workspace /Users/hye/Documents/study-java/tdt4100-v2020-master/ws
+[2020-01-21 14:49:38] Project com.github.user.project.tdt4100-v2020.master
+[2020-01-21 14:49:38] Bundle org.eclipse.oomph.setup 1.16.0.v20200105-1257, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:49:38] Bundle org.eclipse.oomph.setup.core 1.16.0.v20200110-0857, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:49:38] Bundle org.eclipse.oomph.setup.git 1.16.0.v20200110-1135, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:49:38] Bundle org.eclipse.oomph.setup.p2 1.14.0.v20200102-0955, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:49:38] Bundle org.eclipse.oomph.setup.projects 1.12.0.v20200102-1304, build=4498, branch=38f2c890a1185b53e8030f8fc331e19b6a71efe6
+[2020-01-21 14:49:38] Performing Git Clone https://gitlab.stud.idi.ntnu.no/tdt4100/v2020/students.git  (master)
+[2020-01-21 14:49:38] Cloning Git repo https://gitlab.stud.idi.ntnu.no/tdt4100/v2020/students.git to /Users/hye/Documents/study-java/tdt4100-v2020-master/git/tdt4100-v2020-students
+[2020-01-21 14:49:39] Receiving objects
+[2020-01-21 14:49:39] Receiving objects:         0% (  1/496)
+[2020-01-21 14:49:39] Receiving objects:         1% (  5/496)
+[2020-01-21 14:49:39] Receiving objects:         2% ( 10/496)
+[2020-01-21 14:49:39] Receiving objects:         3% ( 15/496)
+[2020-01-21 14:49:39] Receiving objects:         4% ( 20/496)
+[2020-01-21 14:49:39] Receiving objects:         5% ( 25/496)
+[2020-01-21 14:49:39] Receiving objects:         6% ( 30/496)
+[2020-01-21 14:49:39] Receiving objects:         7% ( 35/496)
+[2020-01-21 14:49:39] Receiving objects:         8% ( 40/496)
+[2020-01-21 14:49:39] Receiving objects:         9% ( 45/496)
+[2020-01-21 14:49:39] Receiving objects:        10% ( 50/496)
+[2020-01-21 14:49:39] Receiving objects:        11% ( 55/496)
+[2020-01-21 14:49:39] Receiving objects:        12% ( 60/496)
+[2020-01-21 14:49:39] Receiving objects:        13% ( 65/496)
+[2020-01-21 14:49:39] Receiving objects:        14% ( 70/496)
+[2020-01-21 14:49:39] Receiving objects:        15% ( 75/496)
+[2020-01-21 14:49:39] Receiving objects:        16% ( 80/496)
+[2020-01-21 14:49:39] Receiving objects:        17% ( 85/496)
+[2020-01-21 14:49:39] Receiving objects:        18% ( 90/496)
+[2020-01-21 14:49:39] Receiving objects:        19% ( 95/496)
+[2020-01-21 14:49:39] Receiving objects:        20% (100/496)
+[2020-01-21 14:49:39] Receiving objects:        21% (105/496)
+[2020-01-21 14:49:39] Receiving objects:        22% (110/496)
+[2020-01-21 14:49:39] Receiving objects:        23% (115/496)
+[2020-01-21 14:49:39] Receiving objects:        24% (120/496)
+[2020-01-21 14:49:39] Receiving objects:        25% (124/496)
+[2020-01-21 14:49:39] Receiving objects:        26% (129/496)
+[2020-01-21 14:49:39] Receiving objects:        27% (134/496)
+[2020-01-21 14:49:39] Receiving objects:        28% (139/496)
+[2020-01-21 14:49:39] Receiving objects:        29% (144/496)
+[2020-01-21 14:49:39] Receiving objects:        30% (149/496)
+[2020-01-21 14:49:39] Receiving objects:        31% (154/496)
+[2020-01-21 14:49:39] Receiving objects:        32% (159/496)
+[2020-01-21 14:49:39] Receiving objects:        33% (164/496)
+[2020-01-21 14:49:39] Receiving objects:        34% (169/496)
+[2020-01-21 14:49:39] Receiving objects:        35% (174/496)
+[2020-01-21 14:49:39] Receiving objects:        36% (179/496)
+[2020-01-21 14:49:39] Receiving objects:        37% (184/496)
+[2020-01-21 14:49:39] Receiving objects:        38% (189/496)
+[2020-01-21 14:49:39] Receiving objects:        39% (194/496)
+[2020-01-21 14:49:39] Receiving objects:        40% (199/496)
+[2020-01-21 14:49:39] Receiving objects:        41% (204/496)
+[2020-01-21 14:49:39] Receiving objects:        42% (209/496)
+[2020-01-21 14:49:39] Receiving objects:        43% (214/496)
+[2020-01-21 14:49:39] Receiving objects:        44% (219/496)
+[2020-01-21 14:49:39] Receiving objects:        45% (224/496)
+[2020-01-21 14:49:39] Receiving objects:        46% (229/496)
+[2020-01-21 14:49:39] Receiving objects:        47% (234/496)
+[2020-01-21 14:49:39] Receiving objects:        48% (239/496)
+[2020-01-21 14:49:39] Receiving objects:        49% (244/496)
+[2020-01-21 14:49:39] Receiving objects:        50% (248/496)
+[2020-01-21 14:49:39] Receiving objects:        51% (253/496)
+[2020-01-21 14:49:39] Receiving objects:        52% (258/496)
+[2020-01-21 14:49:39] Receiving objects:        53% (263/496)
+[2020-01-21 14:49:39] Receiving objects:        54% (268/496)
+[2020-01-21 14:49:39] Receiving objects:        55% (273/496)
+[2020-01-21 14:49:39] Receiving objects:        56% (278/496)
+[2020-01-21 14:49:39] Receiving objects:        57% (283/496)
+[2020-01-21 14:49:39] Receiving objects:        58% (288/496)
+[2020-01-21 14:49:39] Receiving objects:        59% (293/496)
+[2020-01-21 14:49:39] Receiving objects:        60% (298/496)
+[2020-01-21 14:49:39] Receiving objects:        61% (303/496)
+[2020-01-21 14:49:39] Receiving objects:        62% (308/496)
+[2020-01-21 14:49:39] Receiving objects:        63% (313/496)
+[2020-01-21 14:49:39] Receiving objects:        64% (318/496)
+[2020-01-21 14:49:39] Receiving objects:        65% (323/496)
+[2020-01-21 14:49:39] Receiving objects:        66% (328/496)
+[2020-01-21 14:49:39] Receiving objects:        67% (333/496)
+[2020-01-21 14:49:39] Receiving objects:        68% (338/496)
+[2020-01-21 14:49:39] Receiving objects:        69% (343/496)
+[2020-01-21 14:49:39] Receiving objects:        70% (348/496)
+[2020-01-21 14:49:39] Receiving objects:        71% (353/496)
+[2020-01-21 14:49:39] Receiving objects:        72% (358/496)
+[2020-01-21 14:49:39] Receiving objects:        73% (363/496)
+[2020-01-21 14:49:39] Receiving objects:        74% (368/496)
+[2020-01-21 14:49:39] Receiving objects:        75% (372/496)
+[2020-01-21 14:49:39] Receiving objects:        76% (377/496)
+[2020-01-21 14:49:39] Receiving objects:        77% (382/496)
+[2020-01-21 14:49:39] Receiving objects:        78% (387/496)
+[2020-01-21 14:49:39] Receiving objects:        79% (392/496)
+[2020-01-21 14:49:39] Receiving objects:        80% (397/496)
+[2020-01-21 14:49:39] Receiving objects:        81% (402/496)
+[2020-01-21 14:49:39] Receiving objects:        82% (407/496)
+[2020-01-21 14:49:39] Receiving objects:        83% (412/496)
+[2020-01-21 14:49:39] Receiving objects:        84% (417/496)
+[2020-01-21 14:49:39] Receiving objects:        85% (422/496)
+[2020-01-21 14:49:39] Receiving objects:        86% (427/496)
+[2020-01-21 14:49:39] Receiving objects:        87% (432/496)
+[2020-01-21 14:49:39] Receiving objects:        88% (437/496)
+[2020-01-21 14:49:39] Receiving objects:        89% (442/496)
+[2020-01-21 14:49:39] Receiving objects:        90% (447/496)
+[2020-01-21 14:49:39] Receiving objects:        91% (452/496)
+[2020-01-21 14:49:39] Receiving objects:        92% (457/496)
+[2020-01-21 14:49:39] Receiving objects:        93% (462/496)
+[2020-01-21 14:49:39] Receiving objects:        94% (467/496)
+[2020-01-21 14:49:39] Receiving objects:        95% (472/496)
+[2020-01-21 14:49:39] Receiving objects:        96% (477/496)
+[2020-01-21 14:49:39] Receiving objects:        97% (482/496)
+[2020-01-21 14:49:39] Receiving objects:        98% (487/496)
+[2020-01-21 14:49:39] Receiving objects:        99% (492/496)
+[2020-01-21 14:49:39] Receiving objects:       100% (496/496)
+[2020-01-21 14:49:39] Resolving deltas
+[2020-01-21 14:49:39] Resolving deltas:          0% (  1/265)
+[2020-01-21 14:49:39] Resolving deltas:          1% (  3/265)
+[2020-01-21 14:49:39] Resolving deltas:          2% (  6/265)
+[2020-01-21 14:49:39] Resolving deltas:          3% (  8/265)
+[2020-01-21 14:49:39] Resolving deltas:          4% ( 11/265)
+[2020-01-21 14:49:39] Resolving deltas:          5% ( 14/265)
+[2020-01-21 14:49:39] Resolving deltas:          6% ( 16/265)
+[2020-01-21 14:49:39] Resolving deltas:          7% ( 19/265)
+[2020-01-21 14:49:39] Resolving deltas:          8% ( 22/265)
+[2020-01-21 14:49:39] Resolving deltas:          9% ( 24/265)
+[2020-01-21 14:49:39] Resolving deltas:         10% ( 27/265)
+[2020-01-21 14:49:39] Resolving deltas:         11% ( 30/265)
+[2020-01-21 14:49:39] Resolving deltas:         12% ( 32/265)
+[2020-01-21 14:49:39] Resolving deltas:         13% ( 35/265)
+[2020-01-21 14:49:39] Resolving deltas:         14% ( 38/265)
+[2020-01-21 14:49:39] Resolving deltas:         15% ( 40/265)
+[2020-01-21 14:49:39] Resolving deltas:         16% ( 43/265)
+[2020-01-21 14:49:39] Resolving deltas:         17% ( 46/265)
+[2020-01-21 14:49:39] Resolving deltas:         18% ( 48/265)
+[2020-01-21 14:49:39] Resolving deltas:         19% ( 51/265)
+[2020-01-21 14:49:39] Resolving deltas:         20% ( 53/265)
+[2020-01-21 14:49:39] Resolving deltas:         21% ( 56/265)
+[2020-01-21 14:49:39] Resolving deltas:         22% ( 59/265)
+[2020-01-21 14:49:39] Resolving deltas:         23% ( 61/265)
+[2020-01-21 14:49:39] Resolving deltas:         24% ( 64/265)
+[2020-01-21 14:49:39] Resolving deltas:         25% ( 67/265)
+[2020-01-21 14:49:39] Resolving deltas:         26% ( 69/265)
+[2020-01-21 14:49:39] Resolving deltas:         27% ( 72/265)
+[2020-01-21 14:49:39] Resolving deltas:         28% ( 75/265)
+[2020-01-21 14:49:39] Resolving deltas:         29% ( 77/265)
+[2020-01-21 14:49:39] Resolving deltas:         30% ( 80/265)
+[2020-01-21 14:49:39] Resolving deltas:         31% ( 83/265)
+[2020-01-21 14:49:39] Resolving deltas:         32% ( 85/265)
+[2020-01-21 14:49:39] Resolving deltas:         33% ( 88/265)
+[2020-01-21 14:49:39] Resolving deltas:         34% ( 91/265)
+[2020-01-21 14:49:39] Resolving deltas:         35% ( 93/265)
+[2020-01-21 14:49:39] Resolving deltas:         36% ( 96/265)
+[2020-01-21 14:49:39] Resolving deltas:         37% ( 99/265)
+[2020-01-21 14:49:39] Resolving deltas:         38% (101/265)
+[2020-01-21 14:49:39] Resolving deltas:         39% (104/265)
+[2020-01-21 14:49:39] Resolving deltas:         40% (106/265)
+[2020-01-21 14:49:39] Resolving deltas:         41% (109/265)
+[2020-01-21 14:49:39] Resolving deltas:         42% (112/265)
+[2020-01-21 14:49:39] Resolving deltas:         43% (114/265)
+[2020-01-21 14:49:39] Resolving deltas:         44% (117/265)
+[2020-01-21 14:49:39] Resolving deltas:         45% (120/265)
+[2020-01-21 14:49:39] Resolving deltas:         46% (122/265)
+[2020-01-21 14:49:39] Resolving deltas:         47% (125/265)
+[2020-01-21 14:49:39] Resolving deltas:         48% (128/265)
+[2020-01-21 14:49:39] Resolving deltas:         49% (130/265)
+[2020-01-21 14:49:39] Resolving deltas:         50% (133/265)
+[2020-01-21 14:49:39] Resolving deltas:         51% (136/265)
+[2020-01-21 14:49:39] Resolving deltas:         52% (138/265)
+[2020-01-21 14:49:39] Resolving deltas:         53% (141/265)
+[2020-01-21 14:49:39] Resolving deltas:         54% (144/265)
+[2020-01-21 14:49:39] Resolving deltas:         55% (146/265)
+[2020-01-21 14:49:39] Resolving deltas:         56% (149/265)
+[2020-01-21 14:49:39] Resolving deltas:         57% (152/265)
+[2020-01-21 14:49:39] Resolving deltas:         58% (154/265)
+[2020-01-21 14:49:39] Resolving deltas:         59% (157/265)
+[2020-01-21 14:49:39] Resolving deltas:         60% (159/265)
+[2020-01-21 14:49:39] Resolving deltas:         61% (162/265)
+[2020-01-21 14:49:39] Resolving deltas:         62% (165/265)
+[2020-01-21 14:49:39] Resolving deltas:         63% (167/265)
+[2020-01-21 14:49:39] Resolving deltas:         64% (170/265)
+[2020-01-21 14:49:39] Resolving deltas:         65% (173/265)
+[2020-01-21 14:49:39] Resolving deltas:         66% (175/265)
+[2020-01-21 14:49:39] Resolving deltas:         67% (178/265)
+[2020-01-21 14:49:39] Resolving deltas:         68% (181/265)
+[2020-01-21 14:49:39] Resolving deltas:         69% (183/265)
+[2020-01-21 14:49:39] Resolving deltas:         70% (186/265)
+[2020-01-21 14:49:39] Resolving deltas:         71% (189/265)
+[2020-01-21 14:49:39] Resolving deltas:         72% (191/265)
+[2020-01-21 14:49:39] Resolving deltas:         73% (194/265)
+[2020-01-21 14:49:39] Resolving deltas:         74% (197/265)
+[2020-01-21 14:49:39] Resolving deltas:         75% (199/265)
+[2020-01-21 14:49:39] Resolving deltas:         76% (202/265)
+[2020-01-21 14:49:39] Resolving deltas:         77% (205/265)
+[2020-01-21 14:49:39] Resolving deltas:         78% (207/265)
+[2020-01-21 14:49:39] Resolving deltas:         79% (210/265)
+[2020-01-21 14:49:39] Resolving deltas:         80% (212/265)
+[2020-01-21 14:49:39] Resolving deltas:         81% (215/265)
+[2020-01-21 14:49:39] Resolving deltas:         82% (218/265)
+[2020-01-21 14:49:39] Resolving deltas:         83% (220/265)
+[2020-01-21 14:49:39] Resolving deltas:         84% (223/265)
+[2020-01-21 14:49:39] Resolving deltas:         85% (226/265)
+[2020-01-21 14:49:39] Resolving deltas:         86% (228/265)
+[2020-01-21 14:49:39] Resolving deltas:         87% (231/265)
+[2020-01-21 14:49:39] Resolving deltas:         88% (234/265)
+[2020-01-21 14:49:39] Resolving deltas:         89% (236/265)
+[2020-01-21 14:49:39] Resolving deltas:         90% (239/265)
+[2020-01-21 14:49:39] Resolving deltas:         91% (242/265)
+[2020-01-21 14:49:39] Resolving deltas:         92% (244/265)
+[2020-01-21 14:49:39] Resolving deltas:         93% (247/265)
+[2020-01-21 14:49:39] Resolving deltas:         94% (250/265)
+[2020-01-21 14:49:39] Resolving deltas:         95% (252/265)
+[2020-01-21 14:49:39] Resolving deltas:         96% (255/265)
+[2020-01-21 14:49:39] Resolving deltas:         97% (258/265)
+[2020-01-21 14:49:39] Resolving deltas:         98% (260/265)
+[2020-01-21 14:49:39] Resolving deltas:         99% (263/265)
+[2020-01-21 14:49:39] Resolving deltas:        100% (265/265)
+[2020-01-21 14:49:40] Creating local branch master
+[2020-01-21 14:49:40] Resetting hard
+[2020-01-21 14:49:40] Performing Projects Import
+[2020-01-21 14:49:40] Importing projects from /Users/hye/Documents/study-java/tdt4100-v2020-master/git/tdt4100-v2020-students
+[2020-01-21 14:49:40] Importing project foreksempel
+[2020-01-21 14:49:47] Importing project ovinger
+[2020-01-21 14:49:47] Importing project minegenkode
+[2020-01-21 14:49:47] Importing project lf
+[2020-01-21 14:49:48] 

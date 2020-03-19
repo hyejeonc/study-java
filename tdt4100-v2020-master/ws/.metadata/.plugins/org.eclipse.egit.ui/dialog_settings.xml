@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/Users/hye/Documents/study-java/tdt4100-v2020-master/git/tdt4100-v2020-students/.git">
+			<item value="false"/>
+			<item value="hyejeonc &lt;hyejungchj@gmail.com&gt;"/>
+			<item value="øving 1 complete"/>
+			<item value="hyejeonc &lt;hyejungchj@gmail.com&gt;"/>
+			<item value="966f9f1368fdb2e6fb3cfb4d7dde073b3b4217e5"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+	</section>
+</section>
