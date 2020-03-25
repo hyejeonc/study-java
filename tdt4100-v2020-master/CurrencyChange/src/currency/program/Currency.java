@@ -1,8 +1,12 @@
-package currency.program;
+//package currency.program;
 
 public class Currency {
 	private String name; // International name, i.e., NOK KRW SEK DKK 
 	private float rate; // per NOK
+	
+	public Currency() {
+		
+	}
 	
 	public Currency(String name, float rate) {
 		this.name = name;

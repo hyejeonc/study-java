@@ -1,0 +1,2 @@
+Input: 50.0 DKK
+Output: 6.935483870967741 EUR

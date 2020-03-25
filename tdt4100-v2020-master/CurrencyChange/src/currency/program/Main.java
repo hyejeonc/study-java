@@ -1,5 +1,4 @@
-package currency.program;
-    
+
 import javafx.application.Application;
  
 import javafx.stage.Stage;
@@ -13,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("AppCurrency.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("CurrencyStage.fxml"));
             Scene scene = new Scene(root,400,400);
             
             primaryStage.setTitle("Two");

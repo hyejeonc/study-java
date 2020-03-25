@@ -2,31 +2,31 @@ package application;
 
 public class Currency {
 	private String name; // International name, i.e., NOK KRW SEK DKK 
-	private float rate; // per NOK
+	private double amount; // Amount 
 
 	public Currency() {
 		
 	}
 	
-	public Currency(String name, float rate) {
+	public Currency(String name, double amount) {
 		this.name = name;
-		this.rate = rate;
+		this.amount = amount;
 	}
 	
 	public void setName(String newName) {
 		name = newName;
 	}
 	
-	public void setRate(float newRate) {
-		rate = newRate;
+	public void setRate(float newAmount) {
+		amount = newAmount;
 	}
 
 	public String getName() {
 		return name;
 	}
 	
-	public float getRate() {
-		return rate;
+	public double getAmount() {
+		return amount;
 	}
 	
 	public static void main(String[] args) {

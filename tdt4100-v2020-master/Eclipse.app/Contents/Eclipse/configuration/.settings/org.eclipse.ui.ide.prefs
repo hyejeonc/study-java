@@ -1,5 +1,6 @@
-MAX_RECENT_WORKSPACES=5
-RECENT_WORKSPACES=/Users/hye/Documents/study-java/tdt4100-v2020-master/ws
+MAX_RECENT_WORKSPACES=10
+RECENT_WORKSPACES=/Users/hye/Documents/study-java/tdt4100-v2020-master\n/Users/hye/Documents/study-java/tdt4100-v2020-master/ws
 RECENT_WORKSPACES_PROTOCOL=3
+SHOW_RECENT_WORKSPACES=false
 SHOW_WORKSPACE_SELECTION_DIALOG=true
 eclipse.preferences.version=1
