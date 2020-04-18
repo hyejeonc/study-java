@@ -1,7 +1,7 @@
-module AppExchange {
+module AppExchange{
 	exports application;
 
-	requires java.desktop;
+	//requires java.desktop;
 	requires javafx.base;
 	requires javafx.controls;
 	requires javafx.fxml;

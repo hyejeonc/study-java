@@ -1,5 +1,5 @@
 package application;
-    
+// https://stackoverflow.com/questions/57553993/no-window-comes-up-when-running-javafx-application    
 import javafx.application.Application;
  
 import javafx.stage.Stage;
