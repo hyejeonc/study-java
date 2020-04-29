@@ -20,7 +20,7 @@
       
       <Button fx:id="buttonRead" layoutX="59.0" layoutY="52.0" mnemonicParsing="false" onAction="#readAction" text="Read" />
       <Button fx:id="buttonWrite" layoutX="278.0" layoutY="286.0" mnemonicParsing="false" onAction="#writeAction" text="Write" />
-      <Button layoutX="130.0" layoutY="52.0" mnemonicParsing="false" text="Reset" />
+      <Button fx:id="buttonReset" layoutX="130.0" layoutY="52.0" mnemonicParsing="false" onAction="#resetAction" text="Reset" />
 
 
    </children>

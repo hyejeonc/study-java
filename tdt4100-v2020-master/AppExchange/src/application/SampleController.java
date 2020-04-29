@@ -30,24 +30,25 @@ import javafx.scene.control.TextField;
  
 public class SampleController implements Initializable, Readwrite{
     
-    
     @FXML public ComboBox<String> comboboxIn, comboboxOut; //
     @FXML public Label myLabel; // Result
     @FXML public TextField textfieldIn; // Input 
     @FXML public Button buttonRead, buttonExchange; 
     
-    private String inCurrency, outCurrency;
-    private double inAmount, outAmount;
-    ArrayList<String> currencyList = new ArrayList<>();
-	ArrayList<Double> rateList = new ArrayList<>();
+    public String inCurrency, outCurrency;
+    public double inAmount, outAmount;
+    public ArrayList<String> currencyList = new ArrayList<>();
+	public ArrayList<Double> rateList = new ArrayList<>();
     
 	ObservableList<String> list = FXCollections.observableArrayList();
-    
-    
+
     //nok = 1;
     //krw = 0.77;
     //sek = 0.97;
     //dkk = 1.37;
+	public SampleController() {
+		
+	}
     
     @Override
     public void initialize(URL arg0, ResourceBundle arg1) {
@@ -57,10 +58,6 @@ public class SampleController implements Initializable, Readwrite{
     }
     
     public void Combo() {
-    	
-    	
-    	
-        
     }
     
     public void comboChangeIn(ActionEvent event) {
@@ -86,7 +83,7 @@ public class SampleController implements Initializable, Readwrite{
                 System.out.println("Yo! You must insert number value for amount of money!");
     		}
     		
-        	CurrencyCalculatorRead Calculator = new CurrencyCalculatorRead(currencyList, rateList, inCurrency, outCurrency, inAmount);
+        	CurrencyCalculator Calculator = new CurrencyCalculator(currencyList, rateList, inCurrency, outCurrency, inAmount);
         	
         	//System.out.println(outCurrency);
         	outAmount = Calculator.getResult();
@@ -97,66 +94,36 @@ public class SampleController implements Initializable, Readwrite{
     
     public void readAction(ActionEvent event) {
     	
-    	read("/Users/hye/Documents/study-java/tdt4100-v2020-master/AppExchange/src/application/test.txt", rateList, currencyList);
-
-    	//inAmount = Float.valueOf(textfieldIn.getText());
-    	//CurrencyCalculatorRead Calculator = new CurrencyCalculatorRead(inCurrency, outCurrency, inAmount);
+    	Object[] resultList = new Object[2];
+    	resultList = read("/Users/hye/Documents/study-java/tdt4100-v2020-master/AppExchange/src/application/test.txt");
     	
-    	//System.out.println(outCurrency);
-    	//myLabel.setText(Double.toString(Calculator.getResult()));	
+    	currencyList = (ArrayList<String>) resultList[0];
+    	rateList = (ArrayList<Double>) resultList[1];
+    	
+    	list = FXCollections.observableArrayList(currencyList);
+		for(int i=0; i<list.size(); i++) {
+    		System.out.println(list.get(i));
+    	}
+		
+		//comboboxOut.getItems().addAll(list);
+        comboboxOut.setItems(list);
+        comboboxIn.setItems(list);
+        
+        
     }
     
     public void writeAction(ActionEvent event) {
     	write("/Users/hye/Documents/study-java/tdt4100-v2020-master/AppExchange/src/application/result.txt", inCurrency, outCurrency, inAmount, outAmount);
     }
     
-    @Override
-    public void read(String path, ArrayList<Double> rateList, ArrayList<String> currencyList) {
-    	// Feedback: read write both in interface not in controller. 
-    	// Implement: write with adding lines not replacing 
-    	
-		try{
-	        File file = new File(path); // File object 
-	        FileReader filereader = new FileReader(file); // Filereader object 
-	        BufferedReader bufReader = new BufferedReader(filereader); // Buffer object 
-	        
-	        String line = "";
-	        while((line = bufReader.readLine()) != null){
-	            System.out.println(line); //.readLine()은 끝에 개행문자를 읽지 않는다.  
-	            
-	            try{
-	            	this.rateList.add(Double.valueOf(line));
-	            	System.out.println("#######Here");
-	            }catch(NumberFormatException e){
-	            	System.out.println("########There");
-	            	this.currencyList.add(line);
-	            }
-	        }
-	        bufReader.close();
-	        
-	    }catch (FileNotFoundException e) {
-	    	System.out.println("File does not exist!");
-	    }catch(IOException e){
-	        System.out.println(e);
-	    }
-		
-		for(int i=0; i<currencyList.size(); i++) {
-			System.out.println("########3");
-    		System.out.println(currencyList.get(i));
-    		System.out.println(rateList.get(i));
-    		System.out.println("########4");
-    	}
-		
-		list = FXCollections.observableArrayList(currencyList);
-		for(int i=0; i<list.size(); i++) {
-    		System.out.println(list.get(i));
-    	}
-		
-		comboboxOut.getItems().addAll(list);
-        comboboxOut.setItems(list);
-        comboboxIn.setItems(list);
-		
+    public void resetAction(ActionEvent event) {
+    	currencyList = new ArrayList<String>();
+    	rateList = new ArrayList<Double>();
+    	list = FXCollections.observableArrayList(currencyList);
+    	comboboxOut.setItems(list);
+    	comboboxIn.setItems(list);
     }
+    
 		
     public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,2 +1,2 @@
-Input: 50.0 DKK
-Output: 6.935483870967741 EUR
+Input: 1000.0 NOK
+Output: 1110.0 KRW

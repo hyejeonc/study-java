@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class CurrencyCalculatorRead {
+public class CurrencyCalculator {
 
 	private String inCurrency, outCurrency;
 	private double inAmount;
@@ -19,11 +19,11 @@ public class CurrencyCalculatorRead {
 
 	
     
-    public CurrencyCalculatorRead() {
+    public CurrencyCalculator() {
     }
     
     
-    public CurrencyCalculatorRead(ArrayList<String> currencyList, ArrayList<Double> rateList, String inCurrency, String outCurrency, double inAmount) {
+    public CurrencyCalculator(ArrayList<String> currencyList, ArrayList<Double> rateList, String inCurrency, String outCurrency, double inAmount) {
     	this.currencyList = currencyList;
     	this.rateList = rateList;
     	this.inCurrency = inCurrency;
@@ -49,24 +49,6 @@ public class CurrencyCalculatorRead {
 		
 		return result;
 		
-		/*
-		
-		for(int i=0; i<currencyList.size();i++) {
-			System.out.println("Wow!");
-			System.out.println(currencyList.get(i));
-			resultCurrencyList.add(new Currency(currencyList.get(i), inAmount/rateList.get(i) ));
-		} // this shows the value of money in every currency types. 
-		
-		for(int j=0; j<currencyList.size();j++) {
-			if (outCurrency == resultCurrencyList.get(j).getName()) {
-				flag = false;
-				return resultCurrencyList.get(j).getAmount()*rateList.get(j);
-			} // this shows the value of money by outCurrency selected. 
-		}
-		
-		return 0.0;
-		
-		*/
 		
 	}
 	
